@@ -1,0 +1,42 @@
+@media screen and (max-width:1364px) {
+  .material-symbols-outlined{
+    visibility: hidden;
+  } 
+}
+
+
+@media screen and (max-width:1120px){
+  header{
+    width: 100vw;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin: 1vh 0vw;
+  }
+
+  nav ul{
+    justify-content: center;
+    margin: -7px 0px;
+  } 
+
+  .search{
+    display: flex;
+    justify-content: center;
+  }
+
+  .login-cart{
+    display: flex;
+    justify-content: center;
+    margin:15px 0px;
+  }
+  .magni-icon{
+    visibility: hidden;
+  }
+}

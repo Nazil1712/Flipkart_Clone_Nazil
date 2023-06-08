@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans&display=swap');
+
+.container{
+  box-sizing: border-box;
+  background-image: url('/_2_CWH_CSS_Course/_0_Flipkart_Clone_Project/img/contact/bg.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 445px;
+  background-position: center left;
+}
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+.container{
+  background-color: white;
+  height: 100vh;
+}
+
+.content-out{
+  margin-left: 960px;
+  padding-top: 40px;
+}
+
+.content{
+  display: flex; 
+  flex-direction: column;
+  margin-right: 45px;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 10px;
+  font-size: 35px;
+  color: #223a78;
+  height: 10px;
+}
+
+.contact-name{
+  margin-top: 95px;
+}
+
+.textar{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 15px 0px;  
+  width: 237px;
+  height: 195px;
+  outline: none;
+}
+
+.c-sub{
+  font-family: 'Nunito Sans', sans-serif;
+  
+  position: relative;
+  left: 61px;
+  background-color:#62a7fe;
+  border: none;
+  height: 33px;
+  width: 118px;
+  border-radius: 10px;
+  /* color:#223a78; */
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 700;
+  font-size: 17px;
+}
